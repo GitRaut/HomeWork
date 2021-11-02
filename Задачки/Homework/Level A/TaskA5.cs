@@ -19,9 +19,20 @@ namespace Homework
     {
         public static List<int> ArrayOfTiers(int number)
         {
-            // Здесь необходимо написать код.
-
-            return null;
+            List<int> otv = new List<int>();
+            int del = 1, point = number, col = 0;
+            while (point > 10)
+            {
+                point = point / 10;
+                del = del * 10;
+            }
+            do
+            {
+                otv.Add(number / del);
+                del = del / 10;
+            }
+            while (del > 0);
+            return otv;
         }
     }
 }

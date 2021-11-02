@@ -23,7 +23,8 @@ namespace Homework
         public static int SumCube(int n, int m)
         {
             int min = Math.Min(n, m), otv = 0;
-            for(int i = min + 1; i <= m; i++)
+            int max = Math.Max(n, m);
+            for (int i = min + 1; i <= max; i++)
             {
                 otv += (i * i * i);
             }
