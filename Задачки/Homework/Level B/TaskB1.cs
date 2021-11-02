@@ -22,9 +22,13 @@ namespace Homework
     {
         public static double MeanSquare(List<int> list1, List<int> list2)
         {
-            // Здесь необходимо написать код.
-
-            return 0;
+            double del = list1.Count, otv = 0, chisl = 0;
+            for(int i = 0; i < list1.Count; i++)
+            {
+                chisl += (list1[i] - list2[i]) * (list1[i] - list2[i]);
+            }
+            otv = chisl / del;
+            return otv;
         }
     }
 }
