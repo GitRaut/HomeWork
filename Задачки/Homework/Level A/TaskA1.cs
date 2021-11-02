@@ -21,9 +21,18 @@ namespace Homework
     {
         public static int NumberOfSquares(int limit)
         {
-            // Здесь необходимо написать код.
-            
-            return 0;
+            int col = 0, sum = 0, point = 1;
+            do
+            {
+                if (sum + (point * point) < limit)
+                {
+                    col++;
+                }
+                sum += point * point;
+                point++;
+            }
+            while (sum < limit);
+            return col;
         }
     }
 }

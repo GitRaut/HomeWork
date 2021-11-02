@@ -22,9 +22,12 @@ namespace Homework
     {
         public static int SumCube(int n, int m)
         {
-            // Здесь необходимо написать код.
-
-            return 0;
+            int min = Math.Min(n, m), otv = 0;
+            for(int i = min + 1; i <= m; i++)
+            {
+                otv += (i * i * i);
+            }
+            return otv;
         }
     }
 }
