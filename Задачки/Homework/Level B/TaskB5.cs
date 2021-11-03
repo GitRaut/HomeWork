@@ -23,7 +23,7 @@ namespace Homework
     {
         public static string Frame(List<string> text, char symbol)
         {
-            // Здесь необходимо написать код.
+            
 
             return "";
         }

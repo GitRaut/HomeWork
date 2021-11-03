@@ -18,14 +18,28 @@ namespace Homework
     // [100, 180, 90, 56, 65, 74, 68, 86, 99]
     public static class TaskB2
     {
+        public static int first_num(int n)
+        {
+            int fr = 0;
+            while(n > 0)
+            {
+                fr = n % 10;
+                n = n / 10;
+            }
+            return fr;
+        }
         public static List<int> OrderWeight(List<int> list)
         {
             List<int> prom = new List<int>();
-            List<int> result = new List<int>();
-            int sum = 0, flag = 0;
-            for(int i = 0; i < list.Count; i++)
+            List<int> otv = new List<int>();
+            for (int i = 0; i < list.Count; i++)
             {
-                while(list[i] > 0)
+                otv.Add(list[i]);
+            }
+            int sum = 0, flag, point;
+            for (int i = 0; i < list.Count; i++)
+            {
+                while (list[i] > 0)
                 {
                     sum += list[i] % 10;
                     list[i] = list[i] / 10;
@@ -37,19 +51,27 @@ namespace Homework
             {
                 for (int j = 0; j < prom.Count - 1; j++)
                 {
-                    if (prom[j] < prom[j + 1])
+                    if (prom[j] > prom[j + 1])
                     {
-                        flag = prom[j];
+                        flag = otv[j];
+                        otv[j] = otv[j + 1];
+                        otv[j + 1] = flag;
+                        point = prom[j];
                         prom[j] = prom[j + 1];
-                        prom[j + 1] = flag;
+                        prom[j + 1] = point;
+                    }
+                    if ((prom[j] == prom[j + 1]) && (first_num(otv[j]) > first_num(otv[j + 1])))
+                    {
+                        flag = otv[j];
+                        otv[j] = otv[j + 1];
+                        otv[j + 1] = flag;
+                        point = prom[j];
+                        prom[j] = prom[j + 1];
+                        prom[j + 1] = point;
                     }
                 }
             }
-            for(int i = prom.Count - 1; i > 0; i--)
-            {
-                result.Add(prom[i]);
-            }
-            return result;
+            return otv;
         }
     }
 }
