@@ -18,7 +18,7 @@ namespace Homework
     // [100, 180, 90, 56, 65, 74, 68, 86, 99]
     public static class TaskB2
     {
-        public static int first_num(int n)
+        public static int first_num(int n)//функция нахождения первой цифры числа
         {
             int fr = 0;
             while(n > 0)
@@ -60,7 +60,7 @@ namespace Homework
                         prom[j] = prom[j + 1];
                         prom[j + 1] = point;
                     }
-                    if ((prom[j] == prom[j + 1]) && (first_num(otv[j]) > first_num(otv[j + 1])))
+                    if ((prom[j] == prom[j + 1]) && (first_num(otv[j]) > first_num(otv[j + 1])))//сортировка списка как строки с помощью функции first_num
                     {
                         flag = otv[j];
                         otv[j] = otv[j + 1];
