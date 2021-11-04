@@ -18,12 +18,12 @@ namespace Homework
     {
         public static string Reverser(string s)
         {
-            char[] rev = s.ToCharArray();
-            Array.Reverse(rev);
+            char[] rev = s.ToCharArray();//преобразует строку в массив типа char
+            Array.Reverse(rev);//переворачивает массив
             s = new string(rev);
             string[] otv = s.Split(' ');
             Array.Reverse(otv);
-            string result = string.Join(" ", otv);
+            string result = string.Join(" ", otv);//соединяет элементы массива в строке через заданный символ в кавычках(" ");
             return result;
         }
     }

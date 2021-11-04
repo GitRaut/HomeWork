@@ -21,7 +21,7 @@ namespace Homework
     // ++++++++++
     public static class TaskB5
     {
-        public static int Max(List<string> text)
+        public static int Max(List<string> text)//находит самый длинный элмемнт списка
         {
             int max = 0;
             for (int i = 0; i < text.Count; i++)
@@ -44,7 +44,7 @@ namespace Homework
             }
             s = new string(symbol, Max(text));
             text.Add(s);
-            text.Insert(0, s);
+            text.Insert(0, s);//добавляет элемент в начало списка
             string res = string.Join("\n", text.ToArray());
             return res;
         }
