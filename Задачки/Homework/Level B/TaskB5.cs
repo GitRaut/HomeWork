@@ -21,11 +21,32 @@ namespace Homework
     // ++++++++++
     public static class TaskB5
     {
+        public static int Max(List<string> text)
+        {
+            int max = 0;
+            for (int i = 0; i < text.Count; i++)
+            {
+                if (text[i].Length > max)
+                {
+                    max = text[i].Length;
+                }
+            }
+            return max;
+        }
         public static string Frame(List<string> text, char symbol)
         {
-            
-
-            return "";
+            int max = Max(text);
+            string s;
+            for (int i = 0; i < text.Count; i++)
+            {
+                s = new string(' ', max - text[i].Length);
+                text[i] = symbol + " " + text[i] + s + " " + symbol;
+            }
+            s = new string(symbol, Max(text));
+            text.Add(s);
+            text.Insert(0, s);
+            string res = string.Join("\n", text.ToArray());
+            return res;
         }
     }
 }
