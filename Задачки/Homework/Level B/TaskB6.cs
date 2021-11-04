@@ -18,9 +18,13 @@ namespace Homework
     {
         public static string Reverser(string s)
         {
-            // Здесь необходимо написать код.
-
-            return "";
+            char[] rev = s.ToCharArray();
+            Array.Reverse(rev);
+            s = new string(rev);
+            string[] otv = s.Split(' ');
+            Array.Reverse(otv);
+            string result = string.Join(" ", otv);
+            return result;
         }
     }
 }
