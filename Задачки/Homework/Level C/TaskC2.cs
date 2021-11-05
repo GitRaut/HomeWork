@@ -21,9 +21,38 @@ namespace Homework
     {
         public static List<int> ChangeCent(double money)
         {
-            // Здесь необходимо написать код.
+            money = Math.Truncate(money);
+            List<int> otv = new List<int>() { 0, 0, 0, 0 };
+            int count = 0;
+            while (count * 25 < money - 25)
+            {
+                count++;
+            }
+            otv[3] = count;
+            money -= count * 25;
+            count = 0;
+            while (count * 10 < money - 10)
+            {
+                count++;
+            }
+            otv[2] = count;
+            money -= count * 10;
+            count = 0;
+            while (count * 5 < money - 5)
+            {
+                count++;
+            }
+            otv[1] = count;
+            money -= count * 5;
+            count = 0;
+            while (money != 0)
+            {
+                money--;
+                count++;
+            }
+            otv[0] = count;
 
-            return null;
+            return otv;
         }
     }
 }

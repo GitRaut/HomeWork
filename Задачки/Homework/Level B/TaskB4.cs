@@ -19,7 +19,11 @@ namespace Homework
     {
         public static bool CheckBrackets(string s)
         {
-            // Здесь необходимо написать код.
+            List<char> res = new List<char>();
+            for(int i = 0; i < s.Length; i++)
+            {
+                
+            }
 
             return false;
         }
