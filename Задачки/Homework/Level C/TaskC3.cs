@@ -24,9 +24,17 @@ namespace Homework
     {
         public static int Movie(int card, int ticket, double perc)
         {
-            // Здесь необходимо написать код.
-
-            return 0;
+            double first = 0, second = card;
+            int count = 0, iter = 1;
+            do
+            {
+                first += ticket;
+                second += ticket * Math.Pow(perc, iter);
+                iter++;
+                count++;
+            }
+            while (second >= first);
+            return count;
         }
     }
 }
