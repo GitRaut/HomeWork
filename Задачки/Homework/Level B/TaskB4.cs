@@ -17,53 +17,52 @@ namespace Homework
     // CheckBrackets("(abc)]{0:1}[") ==> false.
     public static class TaskB4
     {
-        public static bool check(string s, char tip, char tip_rev)
-        {
-            int count = 0;
-            bool symbol;
-            char last = tip_rev;
-            for (int i = 0; i < s.Length; i++)
-            {
-                if (s[i] == tip)
-                {
-                    count++;
-                    last = s[i];
-                }
-                if (s[i] == tip_rev && last == tip)
-                {
-                    count--;
-                }
-            }
-            if (count == 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
         public static bool CheckBrackets(string s)
         {
-            List<bool> res = new List<bool>();
-            res.Add(check(s, '(', ')'));
-            res.Add(check(s, '{', '}'));
-            res.Add(check(s, '[', ']'));
-            res.Add(check(s, '<', '>'));
-            int count = 0;
-            for (int i = 0; i < res.Count; i++)
+            Stack<char> otv = new Stack<char>();
+            for (int i = 0; i < s.Length; i++)
             {
-                if (res[i] == false)
+                char skob = s[i];
+                if (skob == '[' || skob == '{' || skob == '(' || skob == '<')
+                    otv.Push(skob);
+                else if (skob == ']' || skob == '}' || skob == ')' || skob == '>')
                 {
-                    return false;
-                    break;
-                }
-                if (res[i] == true)
-                {
-                    count++;
+                    if (!otv.Any())
+                    {
+                        return false;
+                    }
+                    switch (skob)
+                    {
+                        case ']':
+                            if (otv.Pop() != '[')
+                            {
+                                return false;
+                            }
+                            break;
+                        case '}':
+                            if (otv.Pop() != '{')
+                            {
+                                return false;
+                            }
+                            break;
+                        case ')':
+                            if (otv.Pop() != '(')
+                            {
+                                return false;
+                            }
+                            break;
+                        case '>':
+                            if (otv.Pop() != '<')
+                            {
+                                return false;
+                            }
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
-            if (count == res.Count)
+            if (!otv.Any())
             {
                 return true;
             }
