@@ -1,0 +1,16 @@
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.exe
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.deps.json
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.runtimeconfig.json
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.runtimeconfig.dev.json
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.dll
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\bin\Debug\net5.0\ref\WASP_ACADEMY.dll
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.pdb
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.csproj.AssemblyReference.cache
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.AssemblyInfoInputs.cache
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.AssemblyInfo.cs
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.csproj.CoreCompileInputs.cache
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.dll
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\ref\WASP_ACADEMY.dll
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.pdb
+D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.genruntimeconfig.cache
