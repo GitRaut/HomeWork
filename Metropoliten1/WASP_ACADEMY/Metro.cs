@@ -55,8 +55,9 @@ namespace WASP_ACADEMY
         {
             foreach(Line line in lines)
             {
-                
+                return line.GetStationList();
             }
+            return null;
         }
     }
 }
