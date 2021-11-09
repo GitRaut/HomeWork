@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SERGE\\source\\repos\\AutoPark\\AutoPark\\AutoPark.csproj": {}
+    "C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\AutoPark\\AutoPark\\AutoPark.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SERGE\\source\\repos\\AutoPark\\AutoPark\\AutoPark.csproj": {
+    "C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\AutoPark\\AutoPark\\AutoPark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SERGE\\source\\repos\\AutoPark\\AutoPark\\AutoPark.csproj",
+        "projectUniqueName": "C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\AutoPark\\AutoPark\\AutoPark.csproj",
         "projectName": "AutoPark",
-        "projectPath": "C:\\Users\\SERGE\\source\\repos\\AutoPark\\AutoPark\\AutoPark.csproj",
+        "projectPath": "C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\AutoPark\\AutoPark\\AutoPark.csproj",
         "packagesPath": "C:\\Users\\SERGE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SERGE\\source\\repos\\AutoPark\\AutoPark\\obj\\",
+        "outputPath": "C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\AutoPark\\AutoPark\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SERGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
