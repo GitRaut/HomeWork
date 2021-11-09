@@ -8,15 +8,15 @@ namespace AutoPark
 {
     class Autopark
     {
-        string name;
-        List<PassengerCar> lightcar;
-        List<Truck> trucks;
+        private string name;
+        private List<PassengerCar> lightcar;
+        private List<Truck> trucks;
 
         public Autopark(string name, List<PassengerCar> lightcar, List<Truck> trucks)
         {
             this.name = name;
-            this.lightcar = lightcar;
-            this.trucks = trucks;
+            this.lightcar = new List<PassengerCar>(lightcar);
+            this.trucks = new List<Truck>(trucks);
         }
 
         public override string ToString()
