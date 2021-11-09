@@ -1,0 +1,16 @@
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\bin\Debug\net5.0\AutoPark.exe
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\bin\Debug\net5.0\AutoPark.deps.json
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\bin\Debug\net5.0\AutoPark.runtimeconfig.json
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\bin\Debug\net5.0\AutoPark.runtimeconfig.dev.json
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\bin\Debug\net5.0\AutoPark.dll
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\bin\Debug\net5.0\ref\AutoPark.dll
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\bin\Debug\net5.0\AutoPark.pdb
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.csproj.AssemblyReference.cache
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.AssemblyInfoInputs.cache
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.AssemblyInfo.cs
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.csproj.CoreCompileInputs.cache
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.dll
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\ref\AutoPark.dll
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.pdb
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.genruntimeconfig.cache
