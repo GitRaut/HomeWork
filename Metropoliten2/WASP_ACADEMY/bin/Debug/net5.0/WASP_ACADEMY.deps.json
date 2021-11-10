@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WASP_ACADEMY/1.0.0": {
+        "runtime": {
+          "WASP_ACADEMY.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WASP_ACADEMY/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
