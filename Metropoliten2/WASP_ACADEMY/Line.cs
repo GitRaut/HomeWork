@@ -8,11 +8,11 @@ namespace WASP_ACADEMY
 {
     public class Line
     {
-        List<Station> stations;
-        string name;
-        string color;
+        protected List<Station> stations;
+        protected string name;
+        protected ConsoleColor color;
 
-        public Line(string name, string color)
+        public Line(string name, ConsoleColor color)
         {
             this.name = name;
             this.color = color;
@@ -38,22 +38,22 @@ namespace WASP_ACADEMY
         {
             this.name = name;
         }
-        public string GetColor()
+        public ConsoleColor GetColor()
         {
             return color;
         }
-        public void SetColor(string color)
+        public void SetColor(ConsoleColor color)
         {
             this.color = color;
         }
-        public void AddStation(string name)
+        public void AddStation(string name, ConsoleColor color, params string[] info)
         {
-            Station station = new Station(name);
+            Station station = new Station(name, color, info);
             stations.Add(station);
         }
-        public void AddStation(string name, List<Station> transfers)
+        public void AddStation(string name, ConsoleColor color, List<Station> transfers, params string[] info)
         {
-            Station station = new Station(name, transfers);
+            Station station = new Station(name, color, transfers, info);
             stations.Add(station);
         }
         public Station RemoveStation(string name)

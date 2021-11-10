@@ -8,8 +8,8 @@ namespace WASP_ACADEMY
 {
     public class Metro
     {
-        List<Line> lines;
-        string city;
+        private List<Line> lines;
+        private string city;
 
         public Metro(string city)
         {
@@ -31,7 +31,7 @@ namespace WASP_ACADEMY
             }
             return null;
         }
-        public void AddLine(string name, string color)
+        public void AddLine(string name, ConsoleColor color)
         {
             Line line = new Line(name, color);
             lines.Add(line);
@@ -58,6 +58,14 @@ namespace WASP_ACADEMY
                 return line.GetStationList();
             }
             return null;
+        }
+        public void LoadStationsFromFile(string filename)
+        {
+
+        }
+        public override string ToString()
+        {
+            return base.ToString();
         }
     }
 }
