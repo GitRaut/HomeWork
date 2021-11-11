@@ -16,15 +16,15 @@ namespace WASP_ACADEMY
             this.city = city;
             lines = new List<Line>();
         }
-        public string GetCity()
+        public string GetCity
         {
-            return city;
+            get { return city; }
         }
         public Line FindLine(string name)
         {
-            foreach (Line line in this.lines)
+            foreach (Line line in lines)
             {
-                if (name == line.GetName())
+                if (name == line.Name)
                 {
                     return line;
                 }
@@ -38,7 +38,7 @@ namespace WASP_ACADEMY
         }
         public Line RemoveLine(string name)
         {
-            Line line = this.FindLine(name);
+            Line line = FindLine(name);
             if(line != null)
             {
                 lines.Remove(line);
@@ -47,17 +47,15 @@ namespace WASP_ACADEMY
         }
         public Station FindStation(string name, string lineName)
         {
-            Line line = this.FindLine(lineName);
+            Line line = FindLine(lineName);
             Station station = line.FindStationByName(name);
             return station;
         }
-        public List<Station> GetStationList()
+        public List<Station> GetStationList(string name)
         {
-            foreach(Line line in lines)
-            {
-                return line.GetStationList();
-            }
-            return null;
+            Line line = FindLine(name);
+            List<Station> list = line.GetStationList();
+            return list;
         }
         public void LoadStationsFromFile(string filename)
         {

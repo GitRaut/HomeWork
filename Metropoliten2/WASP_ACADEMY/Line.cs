@@ -21,30 +21,24 @@ namespace WASP_ACADEMY
         }
         public Station GetStation(string name)
         {
-            foreach(Station station in this.stations)
+            foreach(Station station in stations)
             {
-                if (name == station.GetName())
+                if (name == station.Name)
                 {
                     return station;
                 }
             }
             return null;
         }
-        public string GetName()
+        public string Name
         {
-            return name;
+            get { return name; }
+            set { name = value; }
         }
-        public void SetName(string name)
+        public ConsoleColor Color
         {
-            this.name = name;
-        }
-        public ConsoleColor GetColor()
-        {
-            return color;
-        }
-        public void SetColor(ConsoleColor color)
-        {
-            this.color = color;
+            get { return color; }
+            set { color = value; }
         }
         public void AddStation(string name, ConsoleColor color)
         {
@@ -58,7 +52,7 @@ namespace WASP_ACADEMY
         }
         public Station RemoveStation(string name)
         {
-            Station station = this.GetStation(name);
+            Station station = GetStation(name);
             if (station != null)
             {
                 stations.Remove(station);
@@ -67,9 +61,9 @@ namespace WASP_ACADEMY
         }
         public Station FindStationByName(string name)
         {
-            foreach (Station station in this.stations)
+            foreach (Station station in stations)
             {
-                if (name == station.GetName())
+                if (name == station.Name)
                 {
                     return station;
                 }
@@ -78,7 +72,7 @@ namespace WASP_ACADEMY
         }
         public List<Station> GetStationList()
         {
-            return this.stations;
+            return stations;
         }
         public virtual void PrintLine()
         {

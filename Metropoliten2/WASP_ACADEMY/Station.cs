@@ -29,29 +29,26 @@ namespace WASP_ACADEMY
             this.color = color;
             this.transfers = new List<Station>(transfers);
         }
-        public string GetName()
+        public string Name
         {
-            return name;
+            get { return name; }
+            set { name = value; }
         }
-        public void SetName(string name)
+        public bool IsWheelChairAccessible
         {
-            this.name = name;
+            get { return isWheelChairAccessible; }
         }
-        public bool IsWheelChairAccessible()
+        public bool HasParkAndRide
         {
-            return isWheelChairAccessible;
+            get { return hasParkAndRide; }
         }
-        public bool HasParkAndRide()
+        public bool HasNearbyCableCar
         {
-            return hasParkAndRide;
+            get { return hasNearbyCableCar; }
         }
-        public bool HasNearbyCableCar()
+        public string GetLineName
         {
-            return hasNearbyCableCar;
-        }
-        public string GetLineName()
-        {
-            return line.GetName();
+            get { return line.Name; }
         }
         public List<Station> GetTransferList()
         {
