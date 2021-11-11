@@ -46,14 +46,14 @@ namespace WASP_ACADEMY
         {
             this.color = color;
         }
-        public void AddStation(string name, ConsoleColor color, params string[] info)
+        public void AddStation(string name, ConsoleColor color)
         {
-            Station station = new Station(name, color, info);
+            Station station = new Station(name, color);
             stations.Add(station);
         }
-        public void AddStation(string name, ConsoleColor color, List<Station> transfers, params string[] info)
+        public void AddStation(string name, ConsoleColor color, List<Station> transfers)
         {
-            Station station = new Station(name, color, transfers, info);
+            Station station = new Station(name, color, transfers);
             stations.Add(station);
         }
         public Station RemoveStation(string name)
@@ -79,6 +79,10 @@ namespace WASP_ACADEMY
         public List<Station> GetStationList()
         {
             return this.stations;
+        }
+        public virtual void PrintLine()
+        {
+
         }
     }
 }
