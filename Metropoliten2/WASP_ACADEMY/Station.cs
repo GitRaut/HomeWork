@@ -56,7 +56,6 @@ namespace WASP_ACADEMY
         }
         public override string ToString()
         {
-            return base.ToString();
         }
     }
 }

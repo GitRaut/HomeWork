@@ -54,7 +54,7 @@ namespace WASP_ACADEMY
         public List<Station> GetStationList(string name)
         {
             Line line = FindLine(name);
-            List<Station> list = line.GetStationList();
+            List<Station> list = line.GetStationList;
             return list;
         }
         public void LoadStationsFromFile(string filename)

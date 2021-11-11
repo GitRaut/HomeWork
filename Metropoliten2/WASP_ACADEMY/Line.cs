@@ -70,9 +70,9 @@ namespace WASP_ACADEMY
             }
             return null;
         }
-        public List<Station> GetStationList()
+        public List<Station> GetStationList
         {
-            return stations;
+            get { return stations; }
         }
         public virtual void PrintLine()
         {
