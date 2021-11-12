@@ -22,11 +22,11 @@ namespace Music
             string dvd = "";
             foreach(Audio i in store.GetAudio)
             {
-                audio = string.Join("\n", i.GetName + " - " + i.GetSize);
+                audio += string.Join("\n", "\n" + i.GetName + " - " + i.GetSize);
             }
             foreach(DVD i in store.GetDvds)
             {
-                dvd = string.Join("\n", i.GetName + " - " + i.GetSize);
+                dvd += string.Join("\n", "\n" + i.GetName + " - " + i.GetSize);
             }
             Console.WriteLine("\n" + audio + "\n" + dvd);
         }

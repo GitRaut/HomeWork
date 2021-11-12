@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SERGE\\source\\repos\\Music\\Music\\Music.csproj",
+      "projectUniqueName": "C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\Music\\Music\\Music.csproj",
       "projectName": "Music",
-      "projectPath": "C:\\Users\\SERGE\\source\\repos\\Music\\Music\\Music.csproj",
+      "projectPath": "C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\Music\\Music\\Music.csproj",
       "packagesPath": "C:\\Users\\SERGE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SERGE\\source\\repos\\Music\\Music\\obj\\",
+      "outputPath": "C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\Music\\Music\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SERGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
