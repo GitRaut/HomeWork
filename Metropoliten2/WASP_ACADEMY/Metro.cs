@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace WASP_ACADEMY
 {
@@ -59,7 +60,10 @@ namespace WASP_ACADEMY
         }
         public void LoadStationsFromFile(string filename)
         {
-
+            StreamReader sr = new StreamReader("C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Moscow_Metro_dataset");
+            while (!sr.EndOfStream)
+            {
+            }
         }
         public override string ToString()
         {

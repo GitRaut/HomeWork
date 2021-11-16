@@ -14,3 +14,11 @@ D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.dll
 D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\ref\WASP_ACADEMY.dll
 D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.pdb
 D:\Code\WASP_ACADEMY\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.genruntimeconfig.cache
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.csproj.AssemblyReference.cache
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.AssemblyInfoInputs.cache
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.AssemblyInfo.cs
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.csproj.CoreCompileInputs.cache
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.dll
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\ref\WASP_ACADEMY.dll
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.pdb
