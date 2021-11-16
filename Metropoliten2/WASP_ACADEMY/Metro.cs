@@ -46,6 +46,11 @@ namespace WASP_ACADEMY
             }
             return line;
         }
+        public Station FindStation(string name)
+        {
+            List<Station> list = new List<Station>();
+            for()
+        }
         public Station FindStation(string name, string lineName)
         {
             Line line = FindLine(lineName);
