@@ -46,10 +46,17 @@ namespace WASP_ACADEMY
             }
             return line;
         }
-        public Station FindStation(string name)
+        public List<Station> FindStation(string name)
         {
-            List<Station> list = new List<Station>();
-            for()
+            List<Station> res = new List<Station>();
+            foreach(Line line in lines)
+            {
+                if(line.GetStation(name) != null)
+                {
+                    res.Add(line.GetStation(name));
+                }
+            }
+            return res;
         }
         public Station FindStation(string name, string lineName)
         {
@@ -63,11 +70,48 @@ namespace WASP_ACADEMY
             List<Station> list = line.GetStationList;
             return list;
         }
+        public Line FindOrCreateLine(string name)
+        {
+            Line line = FindLine(name);
+            if (line == null)
+            {
+                line = new Line(name);
+                this.lines.Add(line);
+            }
+            return line;
+        }
+        public Station FindOrCreateStation(string linename, string stationname)
+        {
+            Line line = FindLine(linename);
+            if(line == null)
+            {
+                return null;
+            }
+            Station station = line.FindStationByName(stationname);
+            if (station == null)
+            {
+                station = new Station(stationname);
+                line.AddStation(station);
+            }
+            return station;
+        }
         public void LoadStationsFromFile(string filename)
         {
-            StreamReader sr = new StreamReader("C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Moscow_Metro_dataset");
+            StreamReader sr = new StreamReader("C:\\Users\\SERGE\\OneDrive\\Документы\\GitHub\\f\\HomeWork\\Moscow_Metro_dataset");
             while (!sr.EndOfStream)
             {
+                string[] point = sr.ReadLine().Split(";");
+                Line line = FindOrCreateLine(point[0]);
+                Station station = FindOrCreateStation(point[0], point[1]);
+                string[] trans = point[3].Split(",");
+                string[] prom;
+                foreach(string i in trans)
+                {
+                    prom = i.Split("-");
+                    Line line_trans = FindOrCreateLine(prom[0]);
+                    Station station_trans = FindOrCreateStation(prom[0], prom[1]);
+                    station.Addtransfers(station_trans);
+                }
             }
         }
         public override string ToString()

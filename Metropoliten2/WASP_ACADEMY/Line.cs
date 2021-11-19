@@ -20,6 +20,12 @@ namespace WASP_ACADEMY
 
             this.stations = new List<Station>();
         }
+        public Line(string name)
+        {
+            this.name = name;
+
+            this.stations = new List<Station>();
+        }
         public Station GetStation(string name)
         {
             foreach(Station station in stations)
@@ -49,6 +55,15 @@ namespace WASP_ACADEMY
         public void AddStation(string name, ConsoleColor color, List<Station> transfers)
         {
             Station station = new Station(name, color, transfers);
+            stations.Add(station);
+        }
+        public void AddStation(string name, List<Station> transfers)
+        {
+            Station station = new Station(name, color, transfers);
+            stations.Add(station);
+        }
+        public void AddStation(Station station)
+        {
             stations.Add(station);
         }
         public Station RemoveStation(string name)

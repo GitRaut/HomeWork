@@ -22,3 +22,11 @@ C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_
 C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.dll
 C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\ref\WASP_ACADEMY.dll
 C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.pdb
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.exe
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.deps.json
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.runtimeconfig.json
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.runtimeconfig.dev.json
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.dll
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\bin\Debug\net5.0\ref\WASP_ACADEMY.dll
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\bin\Debug\net5.0\WASP_ACADEMY.pdb
+C:\Users\SERGE\OneDrive\Документы\GitHub\f\HomeWork\Metropoliten2\WASP_ACADEMY\obj\Debug\net5.0\WASP_ACADEMY.genruntimeconfig.cache
