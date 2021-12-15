@@ -1,0 +1,15 @@
+C:\Users\SERGE\source\repos\pin\pin\bin\Debug\pin.exe.config
+C:\Users\SERGE\source\repos\pin\pin\bin\Debug\pin.exe
+C:\Users\SERGE\source\repos\pin\pin\bin\Debug\pin.pdb
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin.csproj.AssemblyReference.cache
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\MainWindow.g.cs
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\App.g.cs
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin_MarkupCompile.cache
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin_MarkupCompile.lref
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\MainWindow.baml
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin.g.resources
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin.Properties.Resources.resources
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin.csproj.GenerateResource.cache
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin.csproj.CoreCompileInputs.cache
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin.exe
+C:\Users\SERGE\source\repos\pin\pin\obj\Debug\pin.pdb
