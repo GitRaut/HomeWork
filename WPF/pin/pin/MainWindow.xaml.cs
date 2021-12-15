@@ -117,9 +117,8 @@ namespace pin
                 enter.Text = null;
             }
         }
-        private static readonly Action EmptyDelegate = delegate { };
 
-        private void check_Click(object sender, RoutedEventArgs e)
+        private async void check_Click(object sender, RoutedEventArgs e)
         {
             if(enter.Text == true_pin && count != 1)
             {
@@ -130,7 +129,11 @@ namespace pin
             }
             else if(count != 1)
             {
-                enter.Text = null;
+                enter.Background = new SolidColorBrush(false_color);
+                enter.Text = "ERROR";
+                await Task.Delay(1000);
+                enter.Text = null; 
+                enter.Background = new SolidColorBrush(normal_color);
             }
         }
 
