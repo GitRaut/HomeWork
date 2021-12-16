@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pin"
         mc:Ignorable="d"
-        Title="MainWindow" Height="399" Width="260" ResizeMode="NoResize" Background="#FF1A1A1D">
+        Title="PIN-CODE" Height="399" Width="260" ResizeMode="NoResize" Background="#FF1A1A1D">
     <Grid Margin="0">
         <TextBox x:Name="enter" Height="74.5" Margin="31.999,10,32,285.5" TextWrapping="Wrap" HorizontalAlignment="Center" Width="190.001" FontSize="45" Background="#FF212125" BorderBrush="Black" Foreground="#FFF1F2F7" TextAlignment="Center" KeyDown="enter_KeyDown"/>
         <Button x:Name="three" Content="3" Height="60" Margin="153,75,23,206" Width="60" FontWeight="Bold" FontSize="30" Background="#FF333333" Foreground="#FFF1F2F7" BorderBrush="Black" HorizontalAlignment="Center" Click="three_Click" Cursor="Hand"/>
