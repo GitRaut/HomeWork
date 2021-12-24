@@ -27,9 +27,9 @@ namespace NumberBox
             grid.Children.Add(test);
             test.Height = 200;
             test.Width = 300;
-            test.Margin = new Thickness(10, 20, 50, 80);
-            test.Background = Brushes.Red;
-            test.Foreground = Brushes.Green;
+            test.Margin = new Thickness(5, 5, 10, 10);
+            test.Background = Brushes.DarkOrange;
+            test.Foreground = Brushes.White;
         }
     }
 }
