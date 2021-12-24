@@ -1,0 +1,16 @@
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\bin\Debug\NumberBox.exe.config
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\bin\Debug\NumberBox.exe
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\bin\Debug\NumberBox.pdb
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox.csproj.AssemblyReference.cache
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\MainWindow.g.cs
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\App.g.cs
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox_MarkupCompile.cache
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox_MarkupCompile.lref
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\MainWindow.baml
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox.g.resources
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox.Properties.Resources.resources
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox.csproj.GenerateResource.cache
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox.csproj.CoreCompileInputs.cache
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox.exe
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\NumberBox.pdb
+C:\Users\SERGE\source\repos\NumberBox\NumberBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
