@@ -30,6 +30,12 @@ namespace NumberBox
             test.Margin = new Thickness(5, 5, 10, 10);
             test.Background = Brushes.DarkOrange;
             test.Foreground = Brushes.White;
+            test.ValueChanged += _ValueChanged;
+        }
+
+        private void _ValueChanged(object sender, RoutedEventArgs e)
+        {
+            label.Content = test.Content;
         }
     }
 }

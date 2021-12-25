@@ -13,7 +13,7 @@ namespace NumberBox
     {
         private Button[] btns = new Button[2];
         private Label field;
-        int content;
+        private int content;
         private double width;
         private double height;
         public Thickness margin;
@@ -34,17 +34,41 @@ namespace NumberBox
             field.VerticalContentAlignment = VerticalAlignment.Center;
         }
 
+        public static RoutedEvent ValueChange = EventManager.RegisterRoutedEvent(
+            "ValueChange", RoutingStrategy.Direct,
+            typeof(RoutedEventHandler),
+            typeof(NumBox));
+
+        public event RoutedEventHandler ValueChanged
+        {
+            add
+            {
+                AddHandler(ValueChange, value);
+            }
+            remove
+            {
+                RemoveHandler(ValueChange, value);
+            }
+        }
+
+        private void OnValueChange()
+        {
+            RaiseEvent(new RoutedEventArgs(ValueChange, this));
+        }
+
         private void Click(object sender, RoutedEventArgs e)
         {
             int num = Convert.ToInt32(field.Content);
             if ((sender as Button) == btns[0])
             {
-                field.Content = num + 1;
+                content = num + 1;            
             }
             else
             {
-                field.Content = num - 1;
+                content = num - 1;
             }
+            field.Content = content;
+            OnValueChange();
         }
 
         override protected void OnVisualParentChanged(DependencyObject oldParent)
