@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" version="1.1">
+
+<rect width = "140" height = "250"
+	x = "0" y = "0"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(0, 0, 255)"/>
+
+<rect width = "20" height = "20"
+	x = "20" y = "30"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+<rect width = "20" height = "20"
+	x = "60" y = "30"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+<rect width = "20" height = "20"
+	x = "100" y = "30"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+<!--****************-->
+
+<rect width = "20" height = "20"
+	x = "20" y = "70"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+<rect width = "20" height = "20"
+	x = "60" y = "70"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+<rect width = "20" height = "20"
+	x = "100" y = "70"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+
+<!--****************-->
+
+<rect width = "20" height = "20"
+	x = "20" y = "110"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+<rect width = "20" height = "20"
+	x = "60" y = "110"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+<rect width = "20" height = "20"
+	x = "100" y = "110"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(255, 0, 0)"/>
+
+
+<!--****************-->
+
+<rect width = "30" height = "50"
+	x = "55" y = "195"
+	stroke-width = "1" stroke ="rgb(0, 0, 0)"
+       	fill = "rgb(0, 255, 0)"/>
+
+<!--****************-->
+
+<circle cx="150" cy="150" r="100" fill="none" stroke="black" />
+	
+</svg>
