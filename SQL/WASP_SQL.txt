@@ -1,0 +1,12 @@
+CREATE TABLE users (surname TEXT, name TEXT, patronymic TEXT, birth INTEGER, id INTEGER PRIMARY KEY AUTOINCREMENT);
+INSERT INTO users (surname, name, patronymic, birth) VALUES ('Сергеев', 'Cергей', 'Сергеевич', 27-05-2001);
+INSERT INTO users (name) VALUES ('Олег');
+SELECT * FROM users WHERE name = 'Павел';
+SELECT * FROM users where id > 2;
+SELECT * FROM users where id > 5 and id <= 10;
+SELECT * FROM users where name = 'Павел' and surname = 'Павлов' AND id > 5 AND id <= 10;
+SELECT DISTINCT * FROM users WHERE surname = 'Жданов';
+SELECT name, surname FROM users;
+DELETE FROM users WHERE id > 0; 
+DROP TABLE users;
+
